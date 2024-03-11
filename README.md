@@ -45,24 +45,24 @@
 5. Margin needed is circa 70K per lot, so hold 1L on account per lot to make it 70% funds usage.
 6. Additional margin is to make sure you aren't forced to close positions by your broker in case of volatility
 7. Max profit will come to 3%-6% (3% this is the lowest expectation seen when vix was around 11/12.
-	Case 1 (Market is range bound and no adjustments are needed)
-		a. Exit trade at 15 DTE 
-		b. Expect to have 2-2.5% returns on 1L capital (70K deployed)
-		c. Enter next month's trade at 45 DTE
-	Case 2 (Market swings one way - Adjustment 1)
-		a. Exit TESTED leg at 2x premium or if leg hits 20 delta. Only do this if condition is satisfied towards end of the day.
-		b. Sell again for Rs 100 premium on the same side. Effectively, book loss of approx. Rs 100 and sell again on same side (far OTM) for same value. 
-			i. Optional: Bring in untested side by booking profits and selling again for Rs 100 (10 delta). Important: don't get too close if you expect a reversal.
-		c. Idea is to book small losses in return for a larger trading range.
-		d. Expect to have 1-1.5% returns on 1L capital (70K deployed) by 15 DTE trade closure
-	Case 3 (Market keeps riding same way - Adjustment 2)
-		a. If leg sold in Case 2 (b) doubles again, close again for Rs 200 and sell again OTM for Rs 100. 
-		b. Trade this only at close of play as this case is extremely unlikely. You are at 2nd adjustment - meaning markets have moved 2-3 SD from when you took the trade - it's time for some reversal.
-			i. Optional: Bring in untested side again to book some profits and sell OTM 10 delta. Important: don't get too close when you expect a reversal.
-		c. Expect to end month in slight -ve or breakeven (no profit no loss) by trade closure (15 DTE)
-	Case 4 (Market still keeps riding same way - Adjustment 3)
-		a. Don't try to fight the market - exit the tested side at 2x, wait for some consolidation and re-enter tested side for 1x
-		b. Expect to end month in negative (worst case 2-3%) - no worries, there's always the next month!
+	- Case 1 (Market is range bound and no adjustments are needed)
+		- Exit trade at 15 DTE 
+		- Expect to have 2-2.5% returns on 1L capital (70K deployed)
+		- Enter next month's trade at 45 DTE
+	- Case 2 (Market swings one way - Adjustment 1)
+		- Exit TESTED leg at 2x premium or if leg hits 20 delta. Only do this if condition is satisfied towards end of the day.
+		- Sell again for Rs 100 premium on the same side. Effectively, book loss of approx. Rs 100 and sell again on same side (far OTM) for same value. 
+			- Optional: Bring in untested side by booking profits and selling again for Rs 100 (10 delta). Important: don't get too close if you expect a reversal.
+		- Idea is to book small losses in return for a larger trading range.
+		- Expect to have 1-1.5% returns on 1L capital (70K deployed) by 15 DTE trade closure
+	- Case 3 (Market keeps riding same way - Adjustment 2)
+		- If leg sold in Case 2 (b) doubles again, close again for Rs 200 and sell again OTM for Rs 100. 
+		- Trade this only at close of play as this case is extremely unlikely. You are at 2nd adjustment - meaning markets have moved 2-3 SD from when you took the trade - it's time for some reversal.
+			- Optional: Bring in untested side again to book some profits and sell OTM 10 delta. Important: don't get too close when you expect a reversal.
+		- Expect to end month in slight -ve or breakeven (no profit no loss) by trade closure (15 DTE)
+	- Case 4 (Market still keeps riding same way - Adjustment 3)
+		- Don't try to fight the market - exit the tested side at 2x, wait for some consolidation and re-enter tested side for 1x
+		- Expect to end month in negative (worst case 2-3%) - no worries, there's always the next month!
 	
 ## Pitfalls
 
