@@ -66,7 +66,7 @@
 	
 ## Pitfalls
 
-1. Market will linger close to 2x many times, use 20 delta and market closing to decide whether to made adjustments
+1. Market will linger close to 2x many times, use 20 delta and market closing to decide whether to make adjustments
 2. MTM swings will be huge, but time is an Option seller's friend - stick to the rules and don't be tempted to adjust until the criteria fits (i.e. be disciplined)
 3. Don't be tempted to book profits and close in to ATM too often (if market is range bound) - it will come back to bite. Smaller profits is better than no profits.
 4. As long as you don't let your legs get close to ATM, you will win. ITM is a definite no-no.
